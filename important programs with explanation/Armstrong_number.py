@@ -11,6 +11,8 @@ else:
     print(f" {n} is not armstrong")
 
 """
+An Armstrong number (also called a narcissistic number) is a number that is equal to the sum of its own digits, each raised to the power of the number of digits. For example, in a three-digit number, each digit is raised to the power of three, and if the sum of these values equals the original number, it's an Armstrong number
+
 Function Signature:
 
 def armstrong(num):

@@ -46,5 +46,17 @@ else:
  starting return value  form fibo(1) when condition reach to  base case temination case when  it reached to fibo(1) 
 fibo(-1) no consider because of if n<0:  please enter positive number
 
+
+Each recursive call creates a new instance of the function on the call stack:
+
+When a function calls itself within its own definition, it effectively creates a new instance of the function, with its own set of local variables and arguments.
+This new instance is pushed onto the call stack, a temporary memory area that keeps track of the program's current execution state.
+You can think of it as a stack of plates, where each new function call adds a new plate on top of the stack.
+During recursion, execution of each function is paused until the current recursive call returns:
+
+When a function makes a recursive call, its own execution is temporarily suspended, and the function's state (local variables, arguments) is stored on the call stack.
+Once the base case is reached (the condition that terminates the recursion), the function starts returning values.
+As the recursive calls return, the suspended functions resume execution, using the returned values to complete their operations.
+
     """
     

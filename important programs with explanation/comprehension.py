@@ -18,8 +18,12 @@ k={}
 k={x:x+10 for x in range(2,140) if x%2}
 print(k)
 
+
+#Set comprehension
 set_of={x for x in range(2,78) if x%2!=0}
 print(set_of) 
 
+
+#tuple comprehension
 tu=tuple(x**5 for x in range(9,199)if x%2==0)
 print("tuple ",tu)
