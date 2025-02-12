@@ -154,7 +154,7 @@ Here's an overview of the most common exceptions in Python, their causes, and ho
 - **Example:**
   ```python
   my_list = [1, 2, 3]
-  my_list.append2(4)  
+  my_list.append(4)  
   # AttributeError: 'list' object has no attribute 'append2'
   ```
 

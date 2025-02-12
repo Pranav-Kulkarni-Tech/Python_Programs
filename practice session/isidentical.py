@@ -4,7 +4,7 @@ print(a is b)
 
 x=10
 y=20
-print(a is b)
+print(x is y)
 
 c=100
 d=100

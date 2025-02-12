@@ -1,6 +1,6 @@
 dictionary={'pranav':29, 'ram':11,'Arjun':56}
 
-s=sorted(dictionary.items(),key=lambda x:x[1])# [o] is key and [1] is value
+s=sorted(dictionary.items(),key=lambda x:x[1])# [0] is key and [1] is value
 print(s)
 
 """

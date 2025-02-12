@@ -6,7 +6,7 @@ list1[1][0]=100   #  Modify inner list in list1
 print(list2)   #  Output:  [1, [100, 3], 4]
 
 
-import copy
+
 list1 = [1, [2, 3], 4]
 list3 = copy.deepcopy(list1)  #  Deep copy
 

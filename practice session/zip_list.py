@@ -28,10 +28,8 @@ print(result)  # Output: [(1, 'a'), (2, 'b'), (3, 'c')]
 
 # Output: [1, 2, 3]  ['a', 'b', 'c']
 
-#* operator can be used to unpack the list of tuples
+#   * operator can be used to unpack the list of tuples
 
-"""
-* operator can be used to unpack the list of tuples:
-"""
+
 
 
